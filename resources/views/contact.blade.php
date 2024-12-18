@@ -1,13 +1,13 @@
 <?php
 if(isset($_POST['email'])) {
 
-	$email_from = 'avenger.hussain14@gmail.com';
+	$email_from = ''; //Enter your email and use SMTP access on Gmail
 
 	$email_subject = $_POST['subject'];
 
 	$email_body = 'You have received a new message from $_POST["name"].\n Here is the message:\n $_POST["message"]';
 
-    $to = "avenger.hussain14@gmail.com";
+    $to = ""; //Enter your email and use SMTP access on Gmail
 
     $headers = "From: $email_from \r\n";
     
@@ -66,7 +66,7 @@ if(isset($_POST['email'])) {
                       
       
                       <i class="fa fa-phone mt-4 fa-2x"></i>
-                        <p>+965 66522075</p>
+                        <p>+965 12345678</p>
                       
       
                   </div>
