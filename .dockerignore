@@ -1,0 +1,28 @@
+# Ignore the vendor directory (dependencies will be installed in the container)
+vendor
+
+# Ignore node_modules (for frontend assets, not needed in the image)
+node_modules
+
+# Ignore local environment files
+.env
+.env.*
+
+# Ignore log files
+storage/logs/*.log
+
+# Ignore Laravel cache
+bootstrap/cache/*
+
+# Ignore IDE and editor config files
+.idea
+*.iml
+*.vscode
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files (optional if they aren't needed inside the image)
+docker-compose.override.yml
+.dockerignore
