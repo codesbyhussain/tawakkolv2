@@ -105,6 +105,12 @@ Password: laravel_password
 
 You can use these credentials to manage the database using phpMyAdmin or connect directly to MySQL from the Laravel app.
 
+User credentials:
+Email: john.doe@example.com
+Password: admin
+
+You can use the above credentials to test out the cart functionalities.
+
 6. Stopping the Containers
 To stop the containers, run:
 
@@ -144,7 +150,7 @@ cp .env.example .env
 ```
 Now, edit the .env file to configure your database and other environment settings:
 
-```console
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
